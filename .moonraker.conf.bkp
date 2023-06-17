@@ -85,6 +85,7 @@ enable_object_processing = True
 
 [job_queue]
 load_on_startup = True
+automatic_transition = False
 
 [update_manager moonraker-obico]
 type = git_repo
