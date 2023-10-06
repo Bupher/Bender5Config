@@ -98,8 +98,7 @@ managed_services =
 	moonraker-obico
 
 [notifier pushbullet]
-url = pbul://{secrets.pushbullet_token.token}
+url = pbul://{secrets.pushbullet_token.token}/
 events = gcode
 body = {event_message}
-attach = http://127.0.0.1/webcam/?action=snapshot
 
