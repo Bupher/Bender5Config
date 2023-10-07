@@ -98,7 +98,7 @@ managed_services =
 	moonraker-obico
 
 [notifier pushbullet]
-url = pbul://{secrets.pushbullet_token.token}/
+url = pbul://{secrets.pushbullet_token.token}/#bender5
 events = gcode
 body = {event_message}
 
