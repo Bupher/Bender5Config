@@ -101,4 +101,5 @@ managed_services =
 url = pbul://{secrets.pushbullet_token.token}/#bender5
 events = gcode
 body = {event_message}
+attach = http://127.0.0.1/webcam/?action=snapshot
 
